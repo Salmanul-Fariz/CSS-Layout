@@ -244,24 +244,25 @@ h2::before {
   right: -25px;
 }
 
-/* Resolving conflicts */
-/* #copyright {
-  color: red;
+/*////////*/
+/* FLOATS */
+/*////////*/
+
+.author-img {
+  float: left;
+  margin-bottom: 20px;
 }
 
-.copyright {
-  color: blue;
+.author {
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
 }
 
-.text {
-  color: yellow;
+h1 {
+  float: left;
 }
 
-footer p {
-  color: green !important;
-} */
-
-/* nav a:link,
-nav p {
-  font-size: 18px;
-} */
+nav {
+  float: right;
+}
