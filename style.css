@@ -196,7 +196,6 @@ nav a:link {
   display: block; */
 
   margin-right: 30px;
-  margin-top: 10px;
   display: inline-block;
 }
 
@@ -246,7 +245,7 @@ h2::before {
 /*////////*/
 /* FLOATS */
 /*////////*/
-
+/*
 .author-img {
   float: left;
   margin-bottom: 20px;
@@ -275,4 +274,10 @@ aside {
   float: left;
 }
 footer {
+}
+*/
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
