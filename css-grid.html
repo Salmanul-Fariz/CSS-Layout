@@ -17,7 +17,7 @@
 
     .el--3 {
       background-color: green;
-      height: 150px;
+      /* height: 150px; */
     }
 
     .el--4 {
@@ -48,15 +48,22 @@
       margin: 40px;
 
       /* CSS GRID */
+      /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+      /* grid-template-rows: 300px 200px; */
+      /* grid-template-rows: repeat(2, 1fr); */
       display: grid;
-      grid-template-columns: 200px 200px 100px 100px;
-      grid-template-rows: 300px 200px;
+
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: 1fr auto;
+      height: 500px;
+
       column-gap: 30px;
       row-gap: 20px;
     }
 
     .container--2 {
       /* STARTER */
+      display: none;
       font-family: sans-serif;
       background-color: black;
       font-size: 40px;
