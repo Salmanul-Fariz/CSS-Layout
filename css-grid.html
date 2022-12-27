@@ -17,7 +17,7 @@
 
     .el--3 {
       background-color: green;
-      /* height: 150px; */
+      height: 150px;
     }
 
     .el--4 {
@@ -59,6 +59,7 @@
 
       column-gap: 30px;
       row-gap: 20px;
+      display: none;
     }
 
     .el--8 {
@@ -73,16 +74,31 @@
 
     .container--2 {
       /* STARTER */
-      display: none;
       font-family: sans-serif;
       background-color: black;
       font-size: 40px;
-      margin: 100px;
+      margin: 20px;
 
-      width: 1000px;
+      width: 600px;
       height: 600px;
 
       /* CSS GRID */
+      display: grid;
+      grid-template-columns: 150px 200px 150px;
+      grid-template-rows: 250px 100px;
+      gap: 20px;
+
+      justify-content: center;
+      align-content: center;
+
+      justify-items: center;
+      align-items: center;
+
+    }
+
+    .el--3 {
+      align-self: end;
+      justify-self: end;
     }
   </style>
 </head>
