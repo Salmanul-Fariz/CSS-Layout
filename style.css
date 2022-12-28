@@ -281,3 +281,28 @@ footer {
   align-items: center;
   justify-content: space-between;
 }
+
+/* CSS Grid */
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  column-gap: 75px;
+  row-gap: 60px;
+  align-items: center;
+}
+
+.main-header {
+  grid-column: 1 / -1;
+}
+
+article {
+}
+
+aside {
+  align-self: start;
+}
+
+footer {
+  grid-column: 1 / span 2;
+}
